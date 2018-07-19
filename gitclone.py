@@ -1,6 +1,7 @@
-config  = open("example_config", "r")
+configFile  = open("example_config", "r")
 
-print config.read()
+for line in configFile:
+print line
 
 userEmail = raw_input("your email: ")
 
